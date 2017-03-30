@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--jQuery-->
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="top-travel.css">
+  <title>Top 10 Travel Locations</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- NAVIGATION ELEMENTS -->
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <!-- Navbar Header and Branding -->
+      <div class="navbar-header">
+        <!-- Navabar Collapse Toggle -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img class="planeLogo" src="http://www.freeiconspng.com/uploads/travel-guide-icon-map-ticket-travel-icon-17.png"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#" id="home">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <!-- Dropdown menu -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Travel Links<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="https://www.google.com" target="_blank">Google</a></li>
+              <li><a href="https://www.tripadvisor.com/" target="_blank">Trip Advisor</a></li>
+              <li><a href="http://www.statravel.com/" target="_blank">STA Travel</a></li>
+              <li class="divider"></li>
+              <li><a href="https://www.hotels.com/" target="_blank">Hotels</h1></a></li>
+              <li class="divider"></li>
+              <li><a href="https://www.trivago.com/" target="_blank">Trivago</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- Dropdown menu fixed to the right -->
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Contact Us</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Top 10<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#one">1</a></li>
+              <li><a href="#two">2</a></li>
+              <li><a href="#three">3</a></li>
+              <li><a href="#four">4</a></li>
+              <li><a href="#five">5</a></li>
+              <li><a href="#six">6</a></li>
+              <li><a href="#seven">7</a></li>
+              <li><a href="#eight">8</a></li>
+              <li><a href="#nine">9</a></li>
+              <li><a href="#ten">10</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Top 10 Cities</h1>
+    </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <a href="https://www.google.com"><img src="https://prods3.imgix.net/images/articles/2017_02/non-featured-fb-belize-island.png?auto=format,compress&fit=min&w=600&h=600" alt="Chania"></a>
+          <!-- <div class="carousel-content">
+        <p>Literally intelligentsia echo park, ethical leggings kinfolk DIY tumeric four loko ugh tacos slow-carb flexitarian iceland deep v. </p>
+      </div> -->
+        </div>
+
+        <div class="item">
+          <a href="https://www.google.com">
+            <img src="http://www.tuulavintage.com/wp-content/uploads/2015/01/Insta1.jpg" alt="Chania"></a>
+        </div>
+
+        <div class="item">
+          <a href="https://www.google.com">
+            <img src="http://www.globetravelcentre.com/images/Country/Burma/Card/travel-centre-forthcoming.png" alt="Flower"></a>
+        </div>
+
+        <div class="item">
+          <a href="https://www.google.com"><img src="https://theshootingstar.files.wordpress.com/2015/06/img_4676.jpg?w=640&h=640" alt="Flower"></a>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </br>
+  <div class="row" id="one">
+    <div class="col-sm-7">
+      <h3>1. New York City</h3>
+      <p>Literally intelligentsia echo park, ethical leggings kinfolk DIY tumeric four loko ugh tacos slow-carb flexitarian iceland deep v. Quinoa thundercats hella, tacos fingerstache mixtape fap pickled blue bottle succulents woke squid vice craft beer raclette. Lo-fi bushwick small batch gentrify yr semiotics artisan celiac venmo. Vape paleo copper mug art party literally 8-bit. Irony celiac poke, heirloom twee craft beer cronut austin deep v tacos swag neutra. Butcher kogi messenger bag fam thundercats. Lo-fi tilde put a bird on it bitters af listicle.</p>
+    </div>
+    <div class="col-sm-5">
+      <img src="https://blogs-images.forbes.com/brianrashid/files/2015/09/NYC-FORBES-1940x970.jpg" alt="nyc">
+    </div>
+  </div>
+  <div class="row" id="two">
+    <div class="col-sm-5 rowleft">
+      <img src="https://media.timeout.com/images/100644443/image.jpg" alt="london">
+    </div>
+    <div class="col-sm-7">
+      <h3>2. London</h3>
+      <p>Literally intelligentsia echo park, ethical leggings kinfolk DIY tumeric four loko ugh tacos slow-carb flexitarian iceland deep v. Quinoa thundercats hella, ta cos fingerstache mixtape fap pickled blue bottle succulents woke squid vice craft beer raclette. Lo-fi bushwick small batch gentrify yr semiotics artisan celiac venmo. Vape paleo copper mug art party literally 8-bit. Irony celiac poke, heirloom twee craft beer cronut austin deep v tacos swag neutra. Butcher kogi messenger bag fam thundercats. Lo-fi tilde put a bird on it bitters af listicle.</p>
+    </div>
+  </div>
+  <div class="row" id="three">
+    <div class="col-sm-7">
+      <h3>3. Hong Kong</h3>
+      <p>Literally intelligentsia echo park, ethical leggings kinfolk DIY tumeric four loko ugh tacos slow-carb flexitarian iceland deep v. Quinoa thundercats hella, tacos fingerstache mixtape fap pickled blue bottle succulents woke squid vice craft beer raclette. Lo-fi bushwick small batch gentrify yr semiotics artisan celiac venmo. Vape paleo copper mug art party literally 8-bit. Irony celiac poke, heirloom twee craft beer cronut austin deep v tacos swag neutra. Butcher kogi messenger bag fam thundercats. Lo-fi tilde put a bird on it bitters af listicle.</p>
+    </div>
+    <div class="col-sm-5">
+      <img src="http://assets.fodors.com/destinations/54468/boat-harbor-hong-kong-china-1_main.jpg" alt="hong kong">
+    </div>
+  </div>
+  <div class="row" id="four">
+    <div class="col-sm-5 rowleft">
+      <img src="http://www.lasallianstudyabroad.org/sites/default/files/images/buenos-aires-03.jpg" alt="buenos aires">
+    </div>
+    <div class="col-sm-7">
+      <h3>4. Buenos Aires</h3>
+      <p>Literally intelligentsia echo park, ethical leggings kinfolk DIY tumeric four loko ugh tacos slow-carb flexitarian iceland deep v. Quinoa thundercats hella, tacos fingerstache mixtape fap pickled blue bottle succulents woke squid vice craft beer raclette. Lo-fi bushwick small batch gentrify yr semiotics artisan celiac venmo. Vape paleo copper mug art party literally 8-bit. Irony celiac poke, heirloom twee craft beer cronut austin deep v tacos swag neutra. Butcher kogi messenger bag fam thundercats. Lo-fi tilde put a bird on it bitters af listicle.</p>
+    </div>
+  </div>
+  <div class="row" id="five">
+    <div class="col-sm-7">
+      <h3>5. Sydney</h3>
+      <p>Literally intelligentsia echo park, ethical leggings kinfolk DIY tumeric four loko ugh tacos slow-carb flexitarian iceland deep v. Quinoa thundercats hella, tacos fingerstache mixtape fap pickled blue bottle succulents woke squid vice craft beer raclette. Lo-fi bushwick small batch gentrify yr semiotics artisan celiac venmo. Vape paleo copper mug art party literally 8-bit. Irony celiac poke, heirloom twee craft beer cronut austin deep v tacos swag neutra. Butcher kogi messenger bag fam thundercats. Lo-fi tilde put a bird on it bitters af listicle.</p>
+    </div>
+    <div class="col-sm-5">
+      <img src="http://www.singaporeair.com/saar5/images/destination/what-to-do/syd/Sydney-skyline.jpg" alt="sydney">
+    </div>
+  </div>
+  <div class="row" id="six">
+    <div class="col-sm-5 rowleft">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/0b/4a/09/bf/caption.jpg" alt="Reykjavik">
+    </div>
+    <div class="col-sm-7">
+      <h3>6. Reykjavik</h3>
+      <p>Literally intelligentsia echo park, ethical leggings kinfolk DIY tumeric four loko ugh tacos slow-carb flexitarian iceland deep v. Quinoa thundercats hella, tacos fingerstache mixtape fap pickled blue bottle succulents woke squid vice craft beer raclette. Lo-fi bushwick small batch gentrify yr semiotics artisan celiac venmo. Vape paleo copper mug art party literally 8-bit. Irony celiac poke, heirloom twee craft beer cronut austin deep v tacos swag neutra. Butcher kogi messenger bag fam thundercats. Lo-fi tilde put a bird on it bitters af listicle.</p>
+    </div>
+  </div>
+  <div class="row" id="seven">
+    <div class="col-sm-7">
+      <h3>7. Ho Chi Minh City</h3>
+      <p>Literally intelligentsia echo park, ethical leggings kinfolk DIY tumeric four loko ugh tacos slow-carb flexitarian iceland deep v. Quinoa thundercats hella, tacos fingerstache mixtape fap pickled blue bottle succulents woke squid vice craft beer raclette. Lo-fi bushwick small batch gentrify yr semiotics artisan celiac venmo. Vape paleo copper mug art party literally 8-bit. Irony celiac poke, heirloom twee craft beer cronut austin deep v tacos swag neutra. Butcher kogi messenger bag fam thundercats. Lo-fi tilde put a bird on it bitters af listicle.</p>
+    </div>
+    <div class="col-sm-5">
+      <img src="http://www.director.co.uk/wp-content/uploads/2016/03/March-2016-Expert-International-Ho-Chi-Minh-City-3.jpg" alt="ho chi minh city">
+    </div>
+  </div>
+  <div class="row" id="eight">
+    <div class="col-sm-5 rowleft">
+      <img src="http://img-aws.ehowcdn.com/400x400/ds-img.studiod.com/St_Peter027s_Square02C_Vatica_1.jpg" alt="rome">
+    </div>
+    <div class="col-sm-7">
+      <h3>8. Rome</h3>
+      <p>Literally intelligentsia echo park, ethical leggings kinfolk DIY tumeric four loko ugh tacos slow-carb flexitarian iceland deep v. Quinoa thundercats hella, tacos fingerstache mixtape fap pickled blue bottle succulents woke squid vice craft beer raclette. Lo-fi bushwick small batch gentrify yr semiotics artisan celiac venmo. Vape paleo copper mug art party literally 8-bit. Irony celiac poke, heirloom twee craft beer cronut austin deep v tacos swag neutra. Butcher kogi messenger bag fam thundercats. Lo-fi tilde put a bird on it bitters af listicle.</p>
+    </div>
+  </div>
+  <div class="row" id="nine">
+    <div class="col-sm-7">
+      <h3>9. San Francisco</h3>
+      <p>Literally intelligentsia echo park, ethical leggings kinfolk DIY tumeric four loko ugh tacos slow-carb flexitarian iceland deep v. Quinoa thundercats hella, tacos fingerstache mixtape fap pickled blue bottle succulents woke squid vice craft beer raclette. Lo-fi bushwick small batch gentrify yr semiotics artisan celiac venmo. Vape paleo copper mug art party literally 8-bit. Irony celiac poke, heirloom twee craft beer cronut austin deep v tacos swag neutra. Butcher kogi messenger bag fam thundercats. Lo-fi tilde put a bird on it bitters af listicle.</p>
+    </div>
+    <div class="col-sm-5">
+      <img src="http://i2.cdn.turner.com/money/dam/assets/160502171620-san-francisco-cars-leaving-780x439.jpg" alt="san fran">
+    </div>
+  </div>
+  <div class="row" id="ten">
+    <div class="col-sm-5 rowleft">
+      <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR3UxC4yodSBiGK0mNXbpt5a6Ftyvjmos5_m7YLMmHzKQLK050UFQ" alt="chicago">
+    </div>
+    <div class="col-sm-7">
+      <h3>10. Chicago</h3>
+      <p>Literally intelligentsia echo park, ethical leggings kinfolk DIY tumeric four loko ugh tacos slow-carb flexitarian iceland deep v. Quinoa thundercats hella, tacos fingerstache mixtape fap pickled blue bottle succulents woke squid vice craft beer raclette. Lo-fi bushwick small batch gentrify yr semiotics artisan celiac venmo. Vape paleo copper mug art party literally 8-bit. Irony celiac poke, heirloom twee craft beer cronut austin deep v tacos swag neutra. Butcher kogi messenger bag fam thundercats. Lo-fi tilde put a bird on it bitters af listicle.</p>
+    </div>
+  </div>
+  <div>
+    <a href="#home" class="btn btn-danger">Home</a>
+  </div>
+</div>
+</body>
+</html>
